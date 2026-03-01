@@ -689,7 +689,7 @@ class App:
                                 self.goal = (r, c)
                                 self.grid[r][c] = GOAL
                                 self.edit_mode = "wall"
-                    elif event.button == 3:  # Right click = remove wall
+                    elif event.button == 3:  # Right click=remove wall
                         if self.grid[r][c] == WALL:
                             self.grid[r][c] = EMPTY
 
